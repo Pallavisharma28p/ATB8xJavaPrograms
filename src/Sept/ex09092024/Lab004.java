@@ -10,9 +10,7 @@ public class Lab004 {
         boolean age_verified= false;
 
         if (age_verified== false)
-        {
-            System.out.println("Plesae verify the age 1st");
-        }
+            System.out.println("Please verify the age 1st");
         else
             System.out.println("Verified");
     }
