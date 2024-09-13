@@ -5,17 +5,12 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args) {
 
-        Scanner scanner=new Scanner(System.in);
-
-        System.out.println("Enter first number");
-        int num1= scanner.nextInt();
-        System.out.println("Enter second number");
-        int num2=scanner.nextInt();
-
+        double num1=34;
+        double num2=10;
         System.out.println("Sum is :"+ (num1+num2));
         System.out.println("Sub is :"+ (num1-num2));
         System.out.println("Multiplication is :"+ (num1*num2));
         System.out.println("Division is :"+ (num1/num2));
-        System.out.println("Fractor is :"+ (num1%num2));
+        System.out.println("Modulus is :"+ (num1%num2));
     }
 }
