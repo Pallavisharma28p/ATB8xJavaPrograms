@@ -12,5 +12,7 @@ public class Calculator {
         System.out.println("Multiplication is :"+ (num1*num2));
         System.out.println("Division is :"+ (num1/num2));
         System.out.println("Modulus is :"+ (num1%num2));
+
+
     }
 }
